@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url("japan1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header
+{
+    display:flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 2vh;
+    padding: 0.2rem;
+    background-color: rgba(0,0,0,0.4);
+    position: sticky;
+}
+header img
+{
+    max-height: min(40vh,4rem);
+    max-width: min(40vw,4rem);
+}
+nav ul
+{
+    list-style-type: none;
+    display:flex;
+    gap: min(20vw,2rem);
+}
+.navitem a
+{
+    text-decoration: none;
+    color: white;
+    font-size: clamp(1rem, 1.3vw,2rem);
+    font-family: 'Merriweather', serif;
+}
+.navitem input
+{
+    padding: .4rem;
+    border-radius: .2rem;
+}
+.fa-magnifying-glass
+{
+    background-color: white;
+    border-radius: 3rem;
+    padding: .4rem;
+}
+#se-bar
+{
+    position: absolute;
+    left: 45%;
+    display: flex;
+    align-items: center;
+    gap :.3rem;
+}
+.rightside
+{
+    position: absolute;
+    right: 15%;
+    padding: .5rem;
+    border: 2px solid orange;
+    border-radius: 3rem;
+}
+.rightend
+{
+    position: absolute;
+    right: 2%;
+}
+/* translate element */
+.goog-te-combo
+{
+    color:white;
+    cursor: pointer;
+    background-color: transparent;
+}
+.goog-te-combo option
+{
+    color: black;
+}
+.goog-te-gadget {
+    color: white !important;
+}
+.goog-te-gadget span a{
+    color: white !important;
+}
+/* login div*/
+.login-container {
+    display: flex;
+    min-height: min(50vh, 40rem);
+    max-width: min(80vw, 60rem);
+    margin: auto;
+    align-items: center;
+    margin-top: 20vh;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+.login-logo
+{
+    margin-left: 15%;
+    width:40%;
+}
+.login-logo img
+{
+    width: 70%;
+}
+.login-details,.login-details form
+{
+    display:flex;
+    flex-direction:column;
+    color: white;
+    align-items: center;
+    font-size: 150%;
+}
+/* .login-details form
+{
+    display: flex;
+    flex-direction: column;
+} */
+.login-details span input
+{
+    height: 40px;
+    width: 290px; 
+    padding: 10px 15px;
+    margin: 8px 0;
+    border-radius: 40px;
+    font-size: 15px;
+}
+#forgot-pass
+{
+    font-size: 16px;
+    align-self: flex-end;
+}
+#forgot-pass a{
+    color: white;
+    text-decoration: none;
+}
+#forgot-pass a:hover,#signup-link a:hover 
+{
+    color: grey;
+}
+#login-button
+{
+    width:200px;
+    font-size: 20px;
+    margin:18px 0; 
+    border: none; 
+}
+#login-button:hover
+{
+    background-color: grey;
+    cursor: pointer;
+}
+#signup-link
+{
+    font-size: 15px;
+}
+#signup-link a
+{
+    color: white;
+}
