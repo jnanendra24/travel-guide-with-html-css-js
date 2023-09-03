@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reg_page.css">
+    <script defer src="register.js"></script>
+    <script defer src="https://kit.fontawesome.com/acafe4ef8e.js" crossorigin="anonymous"></script>
+    <script defer src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <title>TravelGuru -Register</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="logo.png" alt="logo"></div>
+        <nav>
+            <ul id="navbar">
+                <li class="navitem">
+                    <a href="home.html">Home</a>
+                </li>
+                <li class="navitem">
+                    <a href="contactus.html">Contact Us</a>
+                </li>
+                <li class="navitem rightside">
+                    <a href="#">Resgister</a>
+                </li>
+                <li class="navitem rightend">
+                    <div id="google_translate_element">
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="login-container">
+        <div class="login-logo">
+            <img src="logo.png" alt="logo">
+        </div>
+        <div class="login-details">
+            <span>Create your free account </span>
+            <div id="error"></div>
+            <form id="login-form" action="#" method="get">
+                <span><input id="username" type="text" placeholder="Name"  required></span>
+                <span><input id="email" type="text" placeholder="Email" required></span>
+                <span><input id="pass" type="password" placeholder="Password" required></span>
+                <span><input id="cpass" type="password" placeholder="Confirm password" required></span>
+                <span id="forgot-pass"><a href="contactus.html">Need Help?</a></span>
+                <span><button type="submit" id="login-button">Register</button></span>
+                <span id="signup-link">Already have an account?<a href="login_page.html">Sign In</a></span>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
