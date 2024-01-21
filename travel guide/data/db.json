@@ -1,0 +1,23 @@
+{
+    "places": [
+        {
+            "id": "1",
+            "image": "https://images.pexels.com/photos/4386404/pexels-photo-4386404.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "name": "mount fuji",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Sit amet mauris commodo quis. At tellus at urna condimentum mattis pellentesque. Magna fermentum iaculis eu non diam. Viverra tellus in hac habitasse. Eleifend quam adipiscing vitae proin sagittis. Sit amet purus gravida quis blandit turpis. Arcu odio ut sem nulla pharetra diam. Cursus eget nunc scelerisque viverra."
+        },
+        {
+            "id": "2",
+            "image": "https://via.placeholder.com/800x400",
+            "name": "laksd;fjklasdjfkljas",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Sit amet mauris commodo quis. At tellus at urna condimentum mattis pellentesque. Magna fermentum iaculis eu non diam. Viverra tellus in hac habitasse. Eleifend quam adipiscing vitae proin sagittis. Sit amet purus gravida quis blandit turpis. Arcu odio ut sem nulla pharetra diam. Cursus eget nunc scelerisque viverra."
+           
+        },
+        {
+             "id": "3",
+            "image": "https://via.placeholder.com/800x400",
+            "name": "laksd;fjklasdjfkljas",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Sit amet mauris commodo quis. At tellus at urna condimentum mattis pellentesque. Magna fermentum iaculis eu non diam. Viverra tellus in hac habitasse. Eleifend quam adipiscing vitae proin sagittis. Sit amet purus gravida quis blandit turpis. Arcu odio ut sem nulla pharetra diam. Cursus eget nunc scelerisque viverra."
+        }
+    ]
+}
