@@ -1,12 +1,18 @@
 import React from 'react'
-import { Button } from 'bootstrap'
+import { useAuth0 } from '@auth0/auth0-react'
 export default function Login() {
+  const { loginWithRedirect, isAuthenticated, user, logout } = useAuth0()
   return (
-    <div>
-      <form>
-        <input placeholder='Email' ref={emailRef}/>
-        <Button>hello</Button>
-      </form>
-    </div>
+    <>
+      {isAuthenticated ?
+        (
+          <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>LogOut</button>
+        )
+        :
+        (
+          <button onClick={() => loginWithRedirect()}>Login</button>
+        )
+      }
+    </>
   )
 }
